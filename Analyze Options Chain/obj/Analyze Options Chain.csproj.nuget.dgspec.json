@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\proojects\\From Jda\\NISM\\analyze options chain\\Analyze Options Chain\\Analyze Options Chain\\Analyze Options Chain.csproj": {}
+  },
+  "projects": {
+    "C:\\proojects\\From Jda\\NISM\\analyze options chain\\Analyze Options Chain\\Analyze Options Chain\\Analyze Options Chain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proojects\\From Jda\\NISM\\analyze options chain\\Analyze Options Chain\\Analyze Options Chain\\Analyze Options Chain.csproj",
+        "projectName": "Analyze Options Chain",
+        "projectPath": "C:\\proojects\\From Jda\\NISM\\analyze options chain\\Analyze Options Chain\\Analyze Options Chain\\Analyze Options Chain.csproj",
+        "packagesPath": "C:\\Users\\H447128\\.nuget\\packages\\",
+        "outputPath": "C:\\proojects\\From Jda\\NISM\\analyze options chain\\Analyze Options Chain\\Analyze Options Chain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\H447128\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory-na.honeywell.com/artifactory/api/nuget/allegrettoclouddatastore-6990-stable-nuget-local": {},
+          "https://artifactory-na.honeywell.com/artifactory/api/nuget/allegrettocommon-6990-stable-nuget-local": {},
+          "https://artifactory-na.honeywell.com/artifactory/api/nuget/cb-oexp-nuget-unstable-local": {},
+          "https://artifactory-na.honeywell.com/artifactory/api/nuget/ce-devops-dotnettemplates-nuget-unstable-local/": {},
+          "https://artifactory-na.honeywell.com/artifactory/api/nuget/forge-ml-platform-nuget-stable-local": {},
+          "https://artifactory-na.honeywell.com/artifactory/api/nuget/hcecbp-nuget-stable-local": {},
+          "https://artifactory-na.honeywell.com/artifactory/api/nuget/hcecbp-nuget-unstable-local/": {},
+          "https://artifactory-na.honeywell.com/artifactory/api/nuget/honeywell-datapipeline-nuget-stable-local/": {},
+          "https://artifactory-na.honeywell.com/artifactory/api/nuget/honeywell-datapipeline-nuget-unstable-local/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.13, 3.1.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
